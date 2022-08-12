@@ -1,0 +1,15 @@
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (1, 'Computador', 'Computador Gamer 8 Nucleos', 'Informatica', 2600, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (2, 'Celular', 'Celular Dualchip', 'Eletronico', 1250, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (3, 'Ventilador', 'Ventilador 4 velocidades', 'Eletrodomestico', 180.90, 'f');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (4, 'Televisor', 'Televisor Smart 42 pol.', 'Eletroeletronico', 1750.60, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (5, 'Mouse', 'Mouse sem fio', 'Informatica', 38, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (6, 'Bicicleta', 'Bicicleta Mtb Aro 29', 'Esporte', 1360, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (7, 'Geladeira', 'Geladeira Duplex', 'Eletrodomestico', 2230.0, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (8, 'Ar condicionado', 'Ar Condicionado Split 12000 Btus', 'Eletrodomestico', 1890.0, 'f');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (9, 'Raquete de tênis', 'Raquete de tênis Graphene 360+', 'Esporte', 670.0, 'f');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (10, 'Sofá', 'Sofá Retrátil e Reclinável', 'Moveis', 1245.0, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (11, 'Cama box', 'Cama box conjugado casal', 'Moveis', 580.0, 'f');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (12, 'Mesa', 'Mesa de jantar c/ 4 cadeiras', 'Moveis', 480.0, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (13, 'Microfone', 'Microfone condensador', 'Eletronico', 380.0, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (14, 'Mesa de tênis', 'Mesa de tênis ping pong', 'Esporte', 723.0, 't');
+INSERT INTO products (id, name, description, category, price, in_stock) VALUES (15, 'Cafeteira', 'Cafeteira expresso automática', 'Eletrodomestico', 450.0, 't');
