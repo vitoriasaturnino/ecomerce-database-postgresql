@@ -1,0 +1,15 @@
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (1, 'Ana Silva', 'anasilva@email.com', '12345678911', '1990-10-25');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (2, 'Roberto Nunes', 'ronunes@email.com', '32165498722', '1992-8-6');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (3, 'Paula Oliveira', 'paula123@email.com', '98765432188', '1989-10-15');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (4, 'Carlos Santos', 'carlos@email.com', '18865498732',  '1985-5-20');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (5, 'Roberta Marques', 'romarques@email.com', '45691198732', '1983-11-4');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (6, 'Júnior Soares', 'jusoares@email.com', '33372298755', '1993-11-25');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (7, 'Guilherme Campos', 'campos123@email.com', '52861645016', '1990-5-22');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (8, 'Larissa Mello', 'lamello@email.com', '37045719035', '1991-10-8');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (9, 'Lucas da Silva', 'lusilva@email.com', '33219536093', '1983-8-15');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (10, 'Mariana Freitas', 'mafreitas@email.com', '42171284013', '1990-10-21');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (11, 'Vanessa Soares', 'van11@email.com', '43444622031', '1979-11-28');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (12, 'Luiza Ferreira', 'luizafer@email.com', '49714415063', '1977-6-15');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (13, 'Marcos Souza', 'marco@email.com', '11971259063', '1976-7-23');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (14, 'Sebastião Araújo', 'bastiao@email.com', '49691363003', '1975-4-17');
+INSERT INTO customers (id, name, email, cpf, birthday) VALUES (15, 'Francisco da Silva', 'chico@email.com', '60117796034', '1974-8-5');
