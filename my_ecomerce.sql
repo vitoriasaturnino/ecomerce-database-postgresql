@@ -34,3 +34,16 @@ CREATE TABLE address (
 SELECT * FROM address;
 
 SELECT * FROM customers c INNER JOIN address a on a.id = c.id;
+
+
+CREATE TABLE orders (
+	id int PRIMARY KEY,
+	customers_id int,
+	status varchar(30),
+	date date,
+	CONSTRAINT customer_id_fk FOREIGN KEY (id) REFERENCES customers
+);
+
+SELECT * FROM orders;
+
+SELECT o.id, c.name, o.status, o.date FROM customers c INNER JOIN orders o on c.id = o.id;
