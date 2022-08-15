@@ -47,3 +47,17 @@ CREATE TABLE orders (
 SELECT * FROM orders;
 
 SELECT o.id, c.name, o.status, o.date FROM customers c INNER JOIN orders o on c.id = o.id;
+
+CREATE TABLE order_items (
+	order_id int,
+	product_id int,
+	quantity int,
+	CONSTRAINT order_items_pk PRIMARY KEY (order_id, product_id),
+	CONSTRAINT order_items_id_fk FOREIGN KEY (order_id) REFERENCES orders(id),
+	CONSTRAINT order_items_product_id_fk FOREIGN KEY (product_id) REFERENCES products(id)
+);
+
+SELECT * FROM orders;
+
+-- INNER JOIN informa no pedido, o nome do cliennte, informações do peliddo e endereços
+SELECT o.id, c.name, o.status, o.date, oi.quantity, a.address, a.city, a.state FROM customers c INNER JOIN orders o on c.id = o.id INNER JOIN order_items oi on oi.order_id = o.id INNER JOIN address a on a.id = c.id;
